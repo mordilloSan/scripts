@@ -16,7 +16,6 @@ Start (){
         mkdir "$WORK_DIR"
     fi
     readonly PACKAGES=("lm-sensors" "htop" "network-manager" "net-tools" "cockpit" "cockpit-navigator" "realmd" "tuned" "udisks2-lvm2" "samba" "winbind" "nfs-kernel-server" "nfs-common" "cockpit-file-sharing" "wireguard-tools" "unattended-upgrades")
-    readonly NETWORK_PACKAGES=("qemu-kvm" "libvirt-daemon-system" "libvirt-clients" "bridge-utils" "ovmf" "virt-manager" "cockpit-machines")
     readonly SERVICES=("cockpit.socket" "NetworkManager" "NetworkManager-wait-online.service")
     readonly NETWORK_SERVICES=("networkd-dispatcher.service" "systemd-networkd.socket" "systemd-networkd.service" "systemd-networkd-wait-online.service")
     readonly NAS_IP="192.168.1.65"
